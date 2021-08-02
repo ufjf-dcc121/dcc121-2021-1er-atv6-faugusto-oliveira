@@ -10,7 +10,7 @@
 		}
     	table, td, th
     	{
-        	border: 1px solid black;
+        	border: none;
         	border-collapse: collapse;
     	}
     	th
@@ -27,34 +27,53 @@
     	{
     		color:  #009900;
     	}
+    	.treasure
+    	{
+    		color: #ffcc00;
+    	}
+    	.wall
+    	{
+    		background-color: grey;
+    		font-size: 0px;
+    	}
 	</style>
 </head>
 <body>
 	<table>
 		<tbody>
 			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -64,19 +83,19 @@
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -86,19 +105,19 @@
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -108,19 +127,19 @@
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -130,25 +149,15 @@
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
 				<th></th>
+				<th class="wall">w</th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -162,312 +171,312 @@
 				<th></th>
 				<th class="orcs">O</th>
 				<th></th>
-				<th>T</th>
+				<th class="treasure wall">T</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th class="orcs">O</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th class="wall">w</th>
+			</tr>
+			<tr>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th></th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
+				<th class="wall">w</th>
 			</tr>
 			<tr>
 				<th></th>
 				<th></th>
 				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
 				<th></th>
 				<th></th>
 				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
 				<th></th>
 				<th class="orcs">O</th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
 			</tr>
 			<tr>
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th class="orcs">O</th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th>D</th>
-				<th></th>
-				<th></th>
-				<th></th>
+				<th class="wall">w</th>
+				<th class="treasure">D</th>
 				<th></th>
 				<th id="hero">@</th>
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th class="orcs">O</th>
 				<th></th>
 				<th></th>
 				<th></th>
-				<th></th>
+				<th class="wall">w</th>
 				<th></th>
 				<th class="orcs">O</th>
 				<th></th>
