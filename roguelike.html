@@ -488,13 +488,45 @@
 		const celulas = document.querySelectorAll('td');
 		for (let i = 0; i < celulas.length-1; i++)
 		{
+
 			if (celulas[i].classList.value === "")
 			{
 				celulas[i].classList.add('wall');
 			}
 			celulas[i].addEventListener('click', eventClick, false);
+
 		};
 
+		function eventClick (event)
+		{
+
+			let cells = event.target;
+			console.log(cells.className);
+			if (cells.classList.contains('wall'))
+			{
+				cells.classList.remove('wall');
+				console.log(cells.className);
+			} else if (cells.className === "")
+			{
+				cells.classList.add('orc');
+				cells.innerHTML = "O";
+				console.log(cells.className);
+			} else if (celula.classList.contains('orc')) 
+			{
+                cells.classList.remove('orc');
+                cells.innerHTML = "";
+                cells.classList.add('treasure');
+                cells.innerHTML = "T";
+                console.log(celula.className);
+            } else 
+            {
+                cells.classList.remove('treasure');
+                cells.innerHTML = "";
+                cells.classList.add('wall');
+                console.log(celula.className);
+            } 
+
+		};
 
 	</script>
 </body>
