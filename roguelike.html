@@ -484,7 +484,17 @@
 		</tbody>
 	</table>
 	<script type="text/javascript">
+
 		const celulas = document.querySelectorAll('td');
+		for (let i = 0; i < celulas.length-1; i++)
+		{
+			if (celulas[i].classList.value === "")
+			{
+				celulas[i].classList.add('wall');
+			}
+		};
+
+
 	</script>
 </body>
 </html>
